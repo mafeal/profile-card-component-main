@@ -1,0 +1,146 @@
+:root {
+   --Dark-cyan: hsl(185, 75%, 39%);
+   --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+   --Dark-grayish-blue: hsl(227, 10%, 46%);
+   --Dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+   font-family: 'Kumbh Sans', sans-serif;
+   background: transparent;
+}
+
+.container {
+   position: absolute;
+   overflow: hidden;
+   display: block;
+   max-width: 1440px;
+   width: 100%;
+   height: 720px;
+   background-color: var(--Dark-cyan);
+}
+
+.pattern-top {
+   position: absolute;
+   height: 950px;
+   width: 950px;
+   top: -500px;   
+   left: -250px;
+}
+
+.pattern-bottom {
+   height: 1000px;
+   width: 1000px;
+   padding-left: 50%;
+   padding-top: 400px;
+}
+
+.card {
+   position: absolute;
+   width: 350px;
+   height: 375px;
+   top: 197px;
+   left: 38%;
+   border-radius: 20px;
+}
+
+.card-head {
+   position: relative;
+   width: 100%;
+   height: 140px;
+   border-radius: 20px 20px 0 0;
+   background-image: url('../images/bg-pattern-card.svg');
+}
+
+.card-head img {
+   position: relative;
+   width: 100%;
+   height: 140px;
+   border-radius: 20px 20px 0 0;
+}
+
+.card-bio {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 145px;
+   background-color: #ffffff;
+   align-items: center;
+   justify-content: center;
+}
+
+.card-bio_name {
+   font-size: 18px;
+   font-weight: 700;
+   margin-top: 50px;
+}
+
+.card-bio_age {
+   color:  var(--Dark-gray);
+}
+
+.card-bio_local {
+   color: var(--Dark-gray);
+   font-weight: 400;
+   margin-top: 10px;
+}
+
+.card-info {
+   display: flex;
+   width: 100%;
+   height: 90px;
+   border-radius: 0 0 20px 20px;
+   background-color: #ffffff;
+   border-top: 1px solid lightgray;
+}
+
+.card-info_blocks {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 37px;
+
+}
+
+.card-info_amount {
+   font-weight: 700;
+   font-size: 18px;
+}
+
+.card-info_type {
+   font-weight: 400;
+   font-size: 10px;
+   padding-top: 2px;
+   color: var(--Dark-gray);
+}
+
+.card-foto {
+   position: absolute;
+   top: 87.5px;
+   left: 122.5px;
+   width: 105px;
+   height: 105px;
+   border-radius: 50%;
+   border: 2px black;
+   background-color: #fff;
+}
+
+.card-foto img {
+   position: relative;
+   top: 5px;
+   left: 5px;
+   width: 95px;
+   height: 95px;
+   border-radius: 50%;
+}
+
+.attribution {
+   position: absolute;
+   font-size: 11px;
+   z-index: 2;
+   top: 700px;
+   left: 40%;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
